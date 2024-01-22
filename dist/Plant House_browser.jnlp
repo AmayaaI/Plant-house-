@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Plant House_browser.jnlp">
+  <information>
+    <title>Plant House</title>
+    <vendor>MSI</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Plant_House.jar" size="122554" download="eager" />
+    <jar href="lib\AbsoluteLayout.jar" size="2903" download="eager" />
+    <jar href="lib\itext-2.1.7.js9.jar" size="1131549" download="eager" />
+    <jar href="lib\mysql-connector-java-8.0.28.jar" size="2476480" download="eager" />
+  </resources>
+  <applet-desc  width="0" height="0" main-class="plant.house.Login"  name="Plant House" >
+  </applet-desc>
+  <update check="background"/>
+</jnlp>
